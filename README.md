@@ -1,6 +1,13 @@
-Extremely minimal book tracker app written in React.
+# Book Log
 
-Dark mode!!!
+Book Log is an extremely minimal book tracking app written in React.
+
+## App design
+
+- Everything is displayed in dark mode with the **Courier New** font.
+- The main screen consists of two elements:
+  1. **Book list** – a chronological list of books the user has read, with the most recent entry at the bottom.
+  2. **Command input** – a terminal‑like bar at the bottom where the user types in a book name. When text is entered the app queries a books API to search for actual titles and lets the user add a result to the log.
 
 ## Development
 
